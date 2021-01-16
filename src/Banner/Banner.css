@@ -1,0 +1,56 @@
+@import "react-slideshow-image/dist/styles.css";
+
+.banner__container {
+  /* width: 1688px; */
+  width: 100%;
+  padding: 10px 0 10px 0;
+  /* padding: 10px 111.5px; */
+}
+.banner__container--slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 280px;
+}
+.banner__container--slide {
+  background-color: #f1f3f6;
+  cursor: pointer;
+}
+
+/* Slide Number  */
+.banner__container--slideNumber {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+  color: #2874f0;
+}
+.banner__container--slideNumber:hover {
+  position: sticky;
+}
+
+/* Remove Slide Show Indicator - From Default CSS */
+.react-slideshow-container + .indicators {
+  display: none !important;
+}
+.react-slideshow-container .default-nav {
+  height: 100px;
+  width: 50px;
+  background: #fff;
+  border: none;
+  cursor: context-menu;
+  color: #fff;
+  border-radius: 0px;
+  box-sizing: border-box;
+}
+.react-slideshow-container .default-nav:first-of-type {
+  margin-right: -50px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.react-slideshow-container .default-nav:last-of-type {
+  margin-left: -50px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}

@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+/* Module CSS  */
+
+.backgroundModule {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0%;
+}
+.moduleWrapper {
+  width: 45%;
+  height: 70%;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  color: #000;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  position: relative;
+  z-index: 10;
+  border-radius: 10px;
+  display: flex;
+}
+
+.loginPage__leftModule {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.8;
+  width: 60%;
+}
+
+.loginPage__rightModule {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.8;
+  width: 100%;
+}
+
+/* Buttons  */
+button {
+  border: none;
+  outline: none;
+}
+
+.login {
+  background-color: #f1f3f6;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Left Side of Login page  */
+.login__rightSide-content {
+  background-color: #2874f0;
+  padding: 30px;
+  color: #fff;
+  cursor: default;
+  width: 100%;
+}
+
+.login__rightSide-content h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.login__rightSide-content p {
+  font-size: 18px;
+  margin-top: 16px;
+  line-height: 150%;
+  color: #dbdbdb;
+}
+.login__rightSide-content {
+  background-position: center 85%;
+  background-repeat: no-repeat;
+  background-image: url(//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/login_img_c4a81e.png);
+}
+
+/* Right Side of Login page */
+.login__container {
+  padding: 20px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.login__container form {
+  line-height: 1.4;
+  padding: 50px 20px;
+  background-color: #fff;
+  align-content: center;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.login__container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.login__container > form > input {
+  padding: 8px 10px 10px 0;
+  margin-bottom: 34px;
+  width: 100%;
+  color: #000;
+  font-size: inherit;
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.login__container > form > input::after {
+  border-bottom: 1px solid #372faf;
+}
+
+.login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.login__signInButton {
+  border-radius: 2px;
+  width: 100%;
+  height: 48px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #fb641b;
+  padding: 10px 20px;
+  background: #fb641b;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  color: #fff;
+}
+
+.login__registerButton {
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: darkgray;
+  width: 100%;
+  cursor: pointer;
+  height: 48px;
+}
+.login__registerButton {
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: #2874f0;
+  width: 100%;
+  height: 48px;
+  border: 1px solid #e0e0e0;
+}
+
+.login__createAccount {
+  text-align: center;
+  padding-top: 140px;
+}
+
+.login__createAccount-link {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #2874f0;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.boxshadow__style {
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Line */
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  opacity: 1;
+}
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #dbdbdb;
+}
+.separator::before {
+  margin-right: 0.25em;
+  margin-top: 5px;
+}
+.separator::after {
+  margin-left: 0.25em;
+  margin-top: 5px;
+}

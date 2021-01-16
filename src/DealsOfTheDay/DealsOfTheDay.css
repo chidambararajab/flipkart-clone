@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.dealsoftheday {
+  display: flex;
+  /* margin: 0px 111.5px; */
+  padding: 0%;
+  margin: 0%;
+}
+.dealsoftheday__left {
+  flex-grow: 1;
+  overflow: auto;
+  padding: 0px;
+  /* max-width: 86%; */
+  width: 100%;
+  align-items: center;
+  display: inline-block;
+  margin-right: 2.2px;
+}
+.dealsoftheday__left--title {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  font-size: 22px;
+  line-height: 32px;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 2.2px;
+}
+.dealsoftheday__left--title > button {
+  display: inline-block;
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: box-shadow 0.2s ease;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #e0e0e0;
+  background-color: #2874f0;
+  padding: 10px 20px;
+  background: #2874f0;
+  color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  border: none;
+  text-decoration: none;
+}
+.dealsoftheday__left--title > button:hover {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: none;
+}
+.dealsoftheday__left--products {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+.dealsofthedays__right {
+  padding-right: 0%;
+  margin-right: 0%;
+}
+.dealsofthedays__right--ads {
+  height: 360.219px;
+  width: 230px;
+  padding: 4px;
+  background-color: #ffffff;
+  margin-left: 2.2px;
+}
+
+.boxshadow__style {
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}

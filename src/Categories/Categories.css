@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.categories {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  /* flex-grow: 1; */
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600 !important;
+  position: relative;
+  box-shadow: 1px 1px 1px #ccc;
+  /* -webkit-box-shadow: 1px 1px 1px #ccc; */
+}
+.option {
+  padding: 12px 0.5cm 12px 0.5cm;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+}
+.categories__icon {
+  margin-left: 4px;
+  width: 15px !important;
+  height: 15px !important;
+  fill: #878787;
+  opacity: 0.5;
+}
+.option:hover > .categories__icon {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  color: rgb(40, 116, 240);
+  transition: transform 0.2s;
+}
+.option:hover {
+  color: rgb(40, 116, 240);
+}
+.categories_left {
+  display: flex;
+  cursor: pointer;
+  flex-grow: 1;
+  justify-content: center;
+  font-weight: 500;
+  height: 100%;
+  color: #000;
+  font-family: Roboto, Arial, sans-serif;
+  letter-spacing: 0;
+}
+.categories_right {
+  display: flex;
+  cursor: pointer;
+  flex-grow: 1;
+  justify-content: center;
+  font-weight: 500;
+  height: 100%;
+  color: #000;
+  font-family: Roboto, Arial, sans-serif;
+  letter-spacing: 0;
+}

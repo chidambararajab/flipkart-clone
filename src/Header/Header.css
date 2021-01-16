@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.header {
+  display: flex;
+  background-color: #2874f0;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 10px 0px 10px 0 !important;
+  font-size: 16px;
+}
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+}
+.header__logo--image {
+  width: 75px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+  margin: 0;
+  padding: 0;
+}
+.header__link {
+  font-size: 11px;
+  font-style: italic;
+  margin-top: -1px;
+  text-decoration: none;
+  color: rgb(247, 250, 254);
+}
+.header__link--plus {
+  color: #ffe500;
+  font-weight: 700;
+}
+.header__link--plusIcon {
+  width: 11px;
+  height: 11px;
+}
+/* Header Search */
+.header__search {
+  margin: 0px 37.5px 0px 12px !important;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 2px 0 0 2px;
+  max-width: 570px;
+  background-color: #fff;
+}
+.header__search--inputBox {
+  padding: 0 16px;
+  border-radius: 2px 0 0 2px;
+  border: 0;
+  outline: 0 none;
+  font-size: 14px;
+  height: 36px;
+  width: 100%;
+  min-width: 283.464567px;
+}
+.header__search--icon {
+  justify-content: flex-end;
+  border: 1px solid #fff;
+  background-color: #fff;
+  height: 36px;
+  width: 44px;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 5px 12px 5px 5px;
+  color: rgb(45, 120, 241);
+}
+/* Header Options */
+.header__options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px !important;
+  font-family: "Roboto", sans-serif;
+}
+.header__options--login {
+  color: #2874f6;
+  font-weight: 500;
+  background: #ffffff;
+  border-radius: 2px;
+  padding: 6px 40px 5px 40px;
+  margin: 0;
+  cursor: pointer;
+  border: 1px solid;
+  margin: 0px 0.5cm 0px 0.5cm;
+  margin-left: 160px;
+  font-size: 15px !important;
+}
+.header__options--more {
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  cursor: pointer;
+  margin: 0px 0.5cm 0px 0.5cm;
+}
+.header__options--more p {
+  margin-bottom: 8px;
+  font-size: 14.5px !important;
+}
+.header__options--moreIcon {
+  margin: 1px 0px 0px 1px;
+  width: 14px !important;
+  height: 14px !important;
+  box-sizing: border-box;
+}
+.header__options--more:hover > .header__options--moreIcon {
+  transform: rotate(-180deg);
+  transition: transform 0.2s;
+}
+.header__options--cart {
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  cursor: pointer;
+  margin: 0px 0.5cm 0px 0.5cm;
+}
+.header__options--cartIcon {
+  box-sizing: border-box;
+  padding: 0;
+  width: 20px !important;
+  height: 20px !important;
+  margin: 0 8px;
+}
+input,
+a {
+  outline: none;
+  text-decoration: none;
+}
