@@ -1,3 +1,7 @@
+# To see the application in browser click the URL below
+
+Hosted URL - https://chidambararaja-flipkart.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
