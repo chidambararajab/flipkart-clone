@@ -42,6 +42,14 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "devDependencies": {},
-  "author": "",
-  "license": "ISC"
+  "author": "Chidambararajab <chidambararaja97@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chidambararajab/flipkart-clone-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chidambararajab/flipkart-clone-react/issues"
+  },
+  "homepage": "https://localhost:3000"
 }

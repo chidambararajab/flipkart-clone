@@ -92,7 +92,8 @@
   border: 1px solid;
   margin: 0px 0.5cm 0px 0.5cm;
   margin-left: 160px;
-  font-size: 15px !important;
+  font-size: 14px !important;
+  font-weight: 600;
 }
 .header__options--more {
   display: flex;

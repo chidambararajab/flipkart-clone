@@ -17,6 +17,7 @@ function Header() {
     <div className="header">
       <div className="header__logo">
         <img
+          alt="ing"
           className="header__logo--image"
           src="https://img1a.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_4ee2f9.png"
         />
@@ -26,6 +27,7 @@ function Header() {
             <spam className="header__link--plus">
               Plus
               <img
+                alt="ing"
                 className="header__link--plusIcon"
                 src="https://img1a.flixcart.com/www/linchpin/fk-cp-zion/img/plus_b13a8b.png"
               />
@@ -45,8 +47,7 @@ function Header() {
 
       <div className="header__options">
         <div className="" onClick={() => loginModelHanding()}>
-          <a className="header__options--login">Login</a>
-          {/* <Login /> */}
+          <button className="header__options--login">Login</button>
         </div>
         <div className="header__options--more">
           <p>More</p>

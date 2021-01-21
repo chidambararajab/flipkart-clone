@@ -49,7 +49,10 @@ const LoginModel = ({ showLoginModel, setShowLoginModel }) => {
                     </button>
 
                     <div className="login__createAccount">
-                      <a className="login__createAccount-link" href="">
+                      <a
+                        className="login__createAccount-link"
+                        href="http://localhost:3000/"
+                      >
                         New to Flipkart? Create an account
                       </a>
                     </div>

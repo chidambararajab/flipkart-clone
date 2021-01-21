@@ -40,15 +40,15 @@ function Categories() {
         <ExpandMoreRoundedIcon className="categories__icon" />
       </span>
 
-      <a href="" className="categories__flight option">
+      <a href="http://localhost:3000/" className="categories__flight option">
         Flights
       </a>
 
-      <a href="" className="categories__offer option">
+      <a href="http://localhost:3000/" className="categories__offer option">
         Offer Zone
       </a>
 
-      <a href="" className="categories__grocery option">
+      <a href="http://localhost:3000/" className="categories__grocery option">
         Grocery
       </a>
     </div>

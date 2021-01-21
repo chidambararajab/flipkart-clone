@@ -16,7 +16,8 @@ function MiniBanner() {
             <img
               className="minibanner-one-img mini_img"
               src={miniBannderOne}
-            ></img>
+              alt="img"
+            />
           </div>
         </a>
       </div>
@@ -30,7 +31,8 @@ function MiniBanner() {
             <img
               className="minibanner-two-img mini_img"
               src={miniBannderTwo}
-            ></img>
+              alt="img"
+            />
           </div>
         </a>
       </div>
@@ -44,7 +46,8 @@ function MiniBanner() {
             <img
               className="minibanner-three-img mini_img"
               src={miniBannderThree}
-            ></img>
+              alt="img"
+            />
           </div>
         </a>
       </div>
